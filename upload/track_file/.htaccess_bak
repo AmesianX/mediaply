@@ -1,0 +1,12 @@
+AuthName "Mediaply"
+Authtype Basic
+AuthUserFile /mediaply/music/upload/track_file/.htpasswd
+AuthGroupFile /dev/null
+ErrorDocument 401 "sorry"
+ErrorDocument 404 "sorry"
+require valid-user
+Order deny,allow
+Deny from all
+Allow from 127.0.0.1
+Allow from ::1
+Satisfy All

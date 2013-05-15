@@ -1,0 +1,134 @@
+
+.content { width:960px; margin:0px auto; }
+
+/* TOP CSS */
+/* AFTER LOGIN */
+#a_top_container { margin:0px; padding:0px; top:0px; left:0px; width:100%; height:29px; background-color:#2A2A2A; clear:both; color:#878787; }
+#logo_small { margin:6px 0px; }
+/* BEFORE LOGIN */
+#b_top_container { margin:0px; padding:0px; top:0px; left:0px; width:100%; height:74px; background-color:#2A2A2A; clear:both; }
+#logo { margin-top:27px; margin-bottom:24px; }
+#login_table { margin-top:8px; }
+#login_table th { font-size:12px; color:#fff; padding-left:15px; text-align:left; }
+#login_table td { font-size:11px; color:#A8A8A8; padding-left:15px; padding-top:2px; }
+#login_table input[type=text], #login_table input[type=password] { width:145px; }
+
+/* TOP MENU CSS */
+#menu_container { margin:0px; padding:0px; top:0px; left:0px; width:100%; height:50px; background:url('/image/bg_menu.png') 50% 50%; clear:both; }
+#search { background:url('/image/bg_search.png') 0px 50% no-repeat; padding:0px 10px; margin-top:8px; }
+#search_txt { width:297px; border:none; margin-right:10px; }
+#menu { margin-top:14px; }
+#menu ul { list-style-type:none; height:21px; }
+#menu ul li { float:left; text-align:center; padding:0px 10px; height:100%; }
+#menu ul li .title { margin-top:4px; }
+
+/* COPYRIGHT CSS */
+#copy_logo { margin-top:60px; }
+
+/* CONTENTS CSS */
+#content { width:960px; margin:6px auto; clear:both; }
+#contant_table #left_td { width:664px; vertical-align:top; border-left:1px solid #DEDEDE; border-bottom:1px solid #DEDEDE; }
+#contant_table #right_td { width:293px; vertical-align:top; border-left:1px solid #DEDEDE; border-bottom:1px solid #DEDEDE; border-right:1px solid #DEDEDE; }
+.content_row { padding:30px; display:inline-block; clear:both; float:left; }
+
+/* LOADING CSS */
+#loading { position:absolute; left:50%; top:50%; margin-left:-16px; margin-top:-16px; z-index:200; }
+
+/* DIV BACKGROUND CSS */
+#div_bg { position:fixed; width:100%; height:100%; left:0px; top:0px; background-color:#000; z-index:150; display:none; }
+
+/* LEFT CONTENTS CSS */
+.title_img { margin-bottom:30px; clear:both; float:left; }
+
+/* RIGHT CONTENTS CSS */
+.h_line { clear:both; float:left; width:100%; height:1px; background-color:#DEDEDE; }
+
+/* PIC CSS */
+/* MYPAGE PIC CSS */
+.profile_pic { float:left; width:30px; height:30px; border:1px solid #C5C5C5; }
+.profile_bg { float:left; width:30px; height:30px; border:1px solid #C5C5C5; }
+.recommend_pic { float:left; width:30px; height:30px; border:1px solid #C5C5C5; }
+/* ALBUM PIC CSS */
+.album_pic { width:107px; border:1px solid #C9C9C9; background-color:#3C3C3C; text-align:right; }
+.album_pic img { width:100px; height:100px; }
+.album_info { margin-top:10px; width:105px; text-align:left; }
+/* ARTIST PIC CSS */
+.artist_pic { width:100px; height:100px; border:1px solid #C9C9C9; }
+.artist_pic img { width:100px; height:100px; }
+.artist_info { margin-top:10px; width:100px; text-align:left; }
+
+/* INDEX CSS */
+.jcarouselWidget { width:604px; display:inline-block; }
+.jcarouselWidget .btnPrev { width:25px; float:left; cursor:pointer; margin-top:130px; }
+.jcarouselWidget .btnNext { width:25px; float:right; cursor:pointer; margin-top:130px; }
+.jcarouselWidget .jcarouselList { width:554px; float:left; }
+.jcarouselWidget .jcarouselList ul { width:100%; list-style:none; }
+.jcarouselWidget .jcarouselList ul li { float:left; width:100%; height:400px; text-align:center; }
+.jcarouselWidget .jcarouselList ul li .album_container .album_table td { height:200px; padding:0px 14px; vertical-align:top; text-align:center; }
+.jcarouselWidget .jcarouselList ul li .artist_container .artist_table td { height:200px; padding:0px 17px; vertical-align:top; text-align:center; }
+
+/* ALBUM CSS */
+.album_container { width:100%; }
+.album_container td { width:25%; height:200px; text-align:center; }
+.album_container .album_table { margin:0px auto; }
+.album_container .album_table td { height:200px; padding:0px 20px; vertical-align:top; text-align:center; }
+
+/* ARTIST CSS */
+.artist_container { width:100%; }
+.artist_container td { width:25%; height:200px; text-align:center; }
+.artist_container .artist_table { margin:0px auto; }
+.artist_container .artist_table td { height:200px; padding:0px 23px; vertical-align:top; text-align:center; }
+
+/* PAYMENT CSS */
+.payment_table { float:left; width:100%; table-layout:fixed; }
+.payment_table th { text-align:left; padding:5px; color:#585858; }
+.payment_table td { text-align:left; padding:5px; }
+.payment_table .align_center { text-align:center; padding:5px; }
+.payment_table input[type=text] { width:44px; height:16px; padding:4px; border:1px solid #BBBBBB; background-color:#EEEEEE; text-align:center; }
+.payment_table input[type=password] { width:56px; height:16px; padding:4px; border:1px solid #BBBBBB; background-color:#EEEEEE; text-align:center; }
+#PGIOscreen { clear:both; float:left; margin-left:142px; }
+
+/* TRACK PAYMENT CSS */
+#track_buy { position:absolute; width:400px; height:200px; border:4px solid #2A2A2A; background-color:#fff; z-index:175; display:none; }
+#track_buy .title { background-color:#6F6D6D; color:#fff; }
+
+/* JOIN POPUP CSS */
+#terms { position:absolute; width:800px; height:600px; border:4px solid #2A2A2A; background-color:#fff; z-index:175; display:none; }
+#terms .title { height:18px; padding:5px; background-color:#6F6D6D; color:#fff; font-weight:bold; }
+#terms .content { width:760px; height:527px; padding:20px; overflow-y:scroll; }
+
+#music_indr { position:absolute; width:800px; height:600px; border:4px solid #2A2A2A; background-color:#fff; z-index:175; display:none; }
+#music_indr .title { height:18px; padding:5px; background-color:#6F6D6D; color:#fff; font-weight:bold; }
+#music_indr .content { width:760px; height:527px; padding:20px; overflow-y:scroll; }
+
+/* FileUpload */
+#fileuploadForm {
+    display: block;
+    }
+    #fileuploadProgress {
+    display: none;  
+    }
+    #progress-bar {
+    border: 1px  solid #999999;
+    border-right-width: 1px;
+    width: 300px;
+    height: 12px;
+    background-color: #FFFFFF;
+    text-align: left;
+    }
+    
+    #progress-bgrd {
+    width: 0px;
+    height: 12px;
+    padding: 0;
+    background-color: #1d499f;
+    }
+    
+    #progress-text {
+    width: 300px;
+    height: 40px;
+    font-family: verdana, geneva;
+    font-size: 10px;
+    color: #000000;
+    }
+

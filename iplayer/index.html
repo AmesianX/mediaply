@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Test Page</title>
+        <script type="text/javascript" src="protype.js"></script>
+        <script type="text/javascript" src="plsParser.js"></script>
+        <script type="text/javascript">
+        	window.onload = function() {
+        		loadPls("listen.pls","playerWrapper");
+        	};
+        	
+        </script>
+	</head>
+	
+	<body>
+		<p id="playerWrapper">
+			<object id="fmp256" type="application/x-shockwave-flash" data="minicaster.swf" width="180" height="70" style="display: block !important; ">
+				  <param name="movie" value="minicaster.swf">
+				  <param name="wmode" value="window">
+				  <p><audio id="audio" src="http://c3.inlive.co.kr:1240" controls></audio></p>
+			</object>
+		</p>
+	</body>
+	
+</html>
+	

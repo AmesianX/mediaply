@@ -1,0 +1,36 @@
+/* TOP CSS */
+#top_container { margin:0px; padding-top:10px; top:0px; left:0px; width:100%; height:34px; background:url('/admin/image/bg_top.png') 0 0 repeat-x; clear:both; color:#A0A2AF; }
+
+/* CONTENT CSS */
+#middle_container { z-index:10; margin:0px; padding:0px; top:0px; left:0px; width:100%; clear:both; }
+/* LEFT CSS */
+#left_container { position:relative; float:left; z-index:10; margin:0px; padding:0px; top:0px; left:0px; width:200px; background:url('/admin/image/bg_left.png') 0 0 repeat-y; }
+#left_menu { margin:0px; padding:0px; top:0px; left:0px; width:100%; float:left; color:#3E485B; }
+#left_menu ul { list-style-type:none; }
+#left_menu ul li { clear:both; padding:10px 20px; border-bottom:1px solid #C1C5CE; font-weight:bold; }
+#left_menu #left_title { padding:14px; text-align:center; font-size:11pt; background:url('/admin/image/bg_left_top.png') 0 0 repeat-y; }
+#left_menu .left_sub { display:none; clear:both; margin:10px; }
+#left_menu .left_sub ul { list-style-type:none; }
+#left_menu .left_sub ul li { clear:both; border:none; padding:2px; }
+#left_menu .left_sub ul li a { color:#3E485B; }
+/* RIGHT CSS */
+#right_container { position:relative; float:left; margin-left:-201px; padding:0px; top:0px; left:0px; width:100%; }
+#content_container { position:relative; z-index:1; margin-left:201px; padding:0px; top:0px; left:0px; }
+#right_title { padding:14px 0px 14px 14px; font-size:11pt; font-weight:bold; color:#585858; border-bottom:1px solid #C1C5CE; }
+#content { padding:15px; }
+
+/* BOTTOM CSS */
+#bottom_container { margin:0px; padding:6px 0px; top:0px; left:0px; width:100%; height:16px; background-color:#31323A; clear:both; color:#A0A2AF; text-align:center; }
+
+/* ALBUM LIST CSS */
+.album_pic { width:107px; border:1px solid #C9C9C9; background-color:#3C3C3C; text-align:right; }
+.album_pic img { width:100px; height:100px; }
+
+/* CONFIG TABLE CSS */
+.config_table { float:left; width:100%; table-layout:fixed; }
+.config_table th { text-align:center; padding:5px; color:#585858; border-top:2px solid #DEDEDE; border-bottom:1px solid #DEDEDE; background-color:#F7F7F7; }
+.config_table td { text-align:center; padding:5px; border-bottom:1px solid #DEDEDE; }
+.config_table input[type=text] { width:20px; height:16px; padding:4px; border:1px solid #BBBBBB; background-color:#EEEEEE; text-align:right; }
+.config_table textarea { width:95%; height:120px; padding:4px; border:1px solid #BBBBBB; }
+
+input[type=text] { width:160px; height:16px; padding:4px; border:1px solid #BBBBBB; background-color:#EEEEEE; }

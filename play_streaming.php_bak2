@@ -1,0 +1,65 @@
+<?
+$path = '.';
+$ft['path'] = $path;
+//require($path.'/_common.php');
+
+require($ft['path'].'/lib/basic.php');
+
+require($ft['path'].'/_db_conn.php');
+
+require($ft['path'].'/_default.php');
+$speed = null;
+
+$uploadDir = '/upload/track_file/';
+$track = mysql_fetch_assoc(mysql_query('SELECT * FROM `ft_track` WHERE `tid`='.$_GET['tid'].';'));
+
+        $file_name = $track['trackname'].'.mp3';
+        $file_ref = $uploadDir . $track['track_file'];
+if(is_file($file_ref) == true){
+  set_time_limit(0);
+  
+  while (ob_get_level() > 0 )
+  {
+     ob_end_clean();
+  }
+  header('Connection: close');
+  ignore_user_abort(); 
+ // ob_start("ob_gzhandler"); 
+  //ob_start(); 
+  //echo('Connection Closed'); 
+  //$size2 = ob_get_length(); 
+
+  $size = sprintf('%u' , filesize($file_ref));
+  $speed = (is_null($speed) === true) ? $size : intval($speed) * 1024;
+
+        $ie = isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false;
+
+        if ($ie) $file_name = iconv('UTF-8', 'EUC-KR', $file_name);
+        header('Content-Type: audio/mpeg');
+        header('Content-Disposition: attachment; filename='.$file_name);
+        header('Content-Transfer-Encoding: binary');
+        header('Content-Length: '.$size);
+        header('Expires: 0');
+
+        if ($ie) {
+                header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
+                header('Pragma: public');
+        } else {
+                header('Cache-Control: cache, must-revalidate');
+                header('Pragma: no-cache');
+        }
+
+      	for ($i = 0; $i <= $size; $i = $i + $speed)
+    	{
+    		echo file_get_contents($file_ref, false, null, $i, $speed);
+
+    		while (ob_get_level() > 0)
+    		{
+    			ob_end_clean();
+    		}
+
+    		flush();
+    		sleep(1);
+    	}
+}
+?>

@@ -1,0 +1,172 @@
+
+* { padding:0px; margin:0px; }
+
+body { font:normal 12px/18px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, "돋움", sans-serif; color:#676767; overflow-y:scroll; }
+
+caption { display:none; }
+
+input { vertical-align:middle; }
+
+img { vertical-align:middle; border:0px; }
+
+a { text-decoration:none; color:#3B5998; }
+a:hover { text-decoration:underline; }
+
+.w100per { width:100%; }
+.w950 { width:950px; }
+.w604 { width:604px; }
+.w233 { width:233px; }
+
+.mv10 { margin:10px 0px; }
+
+.mh2 { margin:0px 2px; }
+
+.mt2 { margin-top:2px; }
+.mt5 { margin-top:5px; }
+.mt10 { margin-top:10px; }
+.mt15 { margin-top:15px; }
+.mt30 { margin-top:30px; }
+
+.mt_5 { margin-top:-5px; }
+
+.mb5 { margin-bottom:5px; }
+.mb10 { margin-bottom:10px; }
+.mb20 { margin-bottom:20px; }
+
+.ml2 { margin-left:2px; }
+.ml5 { margin-left:5px; }
+.ml10 { margin-left:10px; }
+.ml15 { margin-left:15px; }
+.ml20 { margin-left:20px; }
+.ml30 { margin-left:30px; }
+.ml40 { margin-left:40px; }
+
+.mr2 { margin-right:2px; }
+.mr5 { margin-right:5px; }
+.mr20 { margin-right:20px; }
+.mr40 { margin-right:40px; }
+
+.pv10 { padding:10px 0px; }
+.pv20 { padding:20px 0px; }
+
+.ph20 { padding:0px 20px; }
+
+.pt5 { padding-top:5px; }
+.pt6 { padding-top:6px; }
+
+.pb20 { padding-bottom:20px; }
+
+.pr15 { padding-right:15px; }
+
+.font_11 { font-size:11px; }
+.font_13 { font-size:13px; }
+.font_20 { font-size:20px; }
+
+.font_FFFFFF { color:#FFFFFF; }
+.font_FF0000 { color:#FF0000; }
+.font_58B9CB { color:#58B9CB; }
+.font_9CF157 { color:#9CF157; }
+.font_666666 { color:#666666; }
+
+.bold { font-weight:bold; }
+
+.hide { display:none; }
+.clear { clear:both; }
+.fleft { float:left; }
+.fright { float:right; }
+
+.align_left { text-align:left; }
+.align_center { text-align:center; }
+.align_right { text-align:right; }
+
+.valign_top { vertical-align:top; }
+.valign_middle { vertical-align:middle; }
+.valign_bottom { vertical-align:bottom; }
+
+.relative { position:relative; }
+.absolute { position:absolute; }
+
+.btn { cursor:pointer; }
+.txt_btn { cursor:pointer; padding:2px 4px; border:1px solid #B8B8B8; background-color:#F7F7F7; color:#828282; font-weight:bold; font-size:11px; }
+
+.limit_text { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+
+.break_all { word-break:break-all; }
+
+/* LIST TABLE CSS */
+.list_table { float:left; width:100%; table-layout:fixed; }
+.list_table th { text-align:center; padding:5px; color:#585858; border-top:2px solid #DEDEDE; border-bottom:1px solid #DEDEDE; background-color:#F7F7F7; }
+.list_table td { text-align:center; padding:5px; border-bottom:1px solid #DEDEDE; }
+.list_table tbody tr:hover { background-color:#F4F6F9; }
+
+/* VIEW TABLE CSS */
+.view_table { float:left; width:100%; table-layout:fixed; }
+.view_table th { text-align:left; padding:5px; color:#585858; }
+.view_table td { text-align:left; padding:5px; }
+
+/* WRITE TABLE CSS */
+.write_table { float:left; width:100%; table-layout:fixed; }
+.write_table .absolute { position:absolute; }
+.write_table .relative { position:relative; float:left; width:100px; margin-top:4px; margin-left:4px; }
+.write_table th { text-align:left; padding:5px; color:#585858; }
+.write_table td { text-align:left; padding:5px; }
+.write_table input[type=text], .write_table input[type=password] { width:205px; height:16px; padding:4px; border:1px solid #BBBBBB; background-color:#EEEEEE; }
+.write_table input[type=file] { padding:4px; border:1px solid #BBBBBB; background-color:#EEEEEE; }
+.write_table textarea { width:305px; height:100px; padding:4px; border:1px solid #BBBBBB; background-color:#EEEEEE; }
+
+/* VIEW TABLE CSS */
+.notice_view_table { float:left; width:100%; table-layout:fixed; }
+.notice_view_table thead * { border-top:2px solid #8F8F8F; border-bottom:1px solid #DEDEDE; }
+.notice_view_table tbody * { border-bottom:1px solid #8F8F8F; min-height:200px; vertical-align:top; }
+.notice_view_table th { text-align:center; padding:5px; color:#585858; }
+.notice_view_table td { text-align:left; padding:5px; }
+
+/* ALBUM INFO TABLE CSS */
+.album_info_table { float:left; width:100%; table-layout:fixed; }
+.album_info_table th { text-align:left; padding:5px; border-bottom:1px solid #DEDEDE; color:#585858; }
+.album_info_table td { text-align:left; padding:5px; border-bottom:1px solid #DEDEDE; }
+.album_info_table .nobtm { border:none; }
+.album_info_table .top { border-top:1px solid #DEDEDE; }
+
+/* SCROLL BAR CSS */
+html {
+	scrollbar-3dlight-color:#FFFFFF;
+	scrollbar-arrow-color:#D6D6D6;
+	scrollbar-track-color:#FFFFFF;
+	scrollbar-base-color:#FFFFFF;
+	scrollbar-darkshadow-color:#FFFFFF;
+	scrollbar-face-color:#FFFFFF;
+	scrollbar-highlight-color:#D6D6D6;
+	scrollbar-shadow-color:#D6D6D6;
+}
+
+::-webkit-scrollbar-thumb:vertical{
+	height:20px;
+	background-color:#FFFFFF;
+	border:1px solid #D6D6D6;
+}
+::-webkit-scrollbar-track-piece{
+	background-color:#FFFFFF;
+}
+::-webkit-scrollbar-thumb:horizontal{
+	width:50px;
+	background-color:#FFFFFF;
+}
+::-webkit-scrollbar{
+	width:17px;
+	height:17px;
+}
+::-webkit-scrollbar-button:start:decrement{
+	height:17px;
+	display:block;
+	background:url(/images/scroll_up.png) no-repeat 50% 50%;
+	background-color:#FFFFFF;
+	border:1px solid #D6D6D6;
+}
+::-webkit-scrollbar-button:end:increment{
+	height:17px;
+	display:block;
+	background:url(/images/scroll_down.png) no-repeat 50% 50%;
+	background-color:#FFFFFF;
+	border:1px solid #D6D6D6;
+}

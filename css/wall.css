@@ -1,0 +1,54 @@
+
+body { padding-top:30px; background-color:#F2F2F2; }
+
+#bar { background-color:#333333; height:35px; position:fixed; width:100%; z-index:3; margin-top:-30px; }
+#top_container { text-align: left; width: 950px; padding: 8px 15px; }
+#searchbox { float: left; margin-left: 40px; margin-top: -2px; width: 200px; }
+.uiinput { background-color: #F2F2F2; border-right: 0 none; border-style: solid none none; border-width: 1px 0 0; margin: 0 22px 0 5px; outline: medium none; padding: 3px 5px 3px 3px; width: 190px; }
+#display { background-color: #FFFFFF; border-bottom: 1px solid #DEDEDE; border-left: 1px solid #DEDEDE; border-right: 1px solid #DEDEDE; display: none; font-weight: bold; margin-left: 5px; overflow: hidden; width: 196px; }
+.display_box { border-top: 1px solid #DEDEDE; font-size: 12px; height: 30px; padding: 4px; }
+.search_face { float: left; margin-right: 5px; width: 30px; height:30px; }
+
+#left_div { clear:both; float:left; width:130px; padding:15px; margin-top:15px; margin-left:15px; margin-bottom:15px; border:1px solid #DEDEDE; background-color:#FFF; color:#999999; font-size:11px; }
+#right_div { float:left; width:608px; padding:15px 0px; margin-top:15px; margin-left:15px; margin-bottom:15px; border:1px solid #DEDEDE; background-color:#FFF; text-align:center; }
+#friend_div { float:left; width:131px; padding:15px 0px; margin-top:15px; margin-left:15px; margin-bottom:15px; border:1px solid #DEDEDE; background-color:#FFF; text-align:center; }
+
+#left_profile_pic { width:130px; height:130px; }
+.profile_title { font-weight:bold; color:#3B5998; }
+.border_bottom { border-bottom:1px solid #DEDEDE; }
+.border { border:1px solid #DEDEDE; }
+
+.right_friends_pic { width:30px; height:30px; }
+
+.title_img { clear:both; float:left; }
+
+/* DIV BACKGROUND CSS */
+#div_bg { position:fixed; width:100%; height:100%; left:0px; top:0px; background-color:#000; z-index:150; display:none; }
+
+/* PRESENT CSS */
+#present { position:absolute; width:200px; height:100px; border:4px solid #2A2A2A; background-color:#fff; z-index:175; display:none; }
+#present th, #present td { text-align:center; }
+#present .title { text-align:left; background-color:#6F6D6D; color:#fff; }
+#present input[type=text] { width:20px; text-align:right; }
+
+/* TRACK_BUY CSS */
+//#track_buy { position:absolute; width:200px; height:100px; border:4px solid #2A2A2A; background-color:#fff; z-index:175; display:none; }
+#track_buy th, #present td { text-align:center; }
+#track_buy .title { text-align:left; background-color:#6F6D6D; color:#fff; }
+#track_buy input[type=text] { width:20px; text-align:right; }
+#track_buy { position:absolute; width:400px; height:200px; border:4px solid #2A2A2A; background-color:#fff; z-index:175; display:none; }
+//#track_buy .title { background-color:#6F6D6D; color:#fff; }
+
+/* ARTIST ALBUM CSS */
+.jcarouselWidget { display:inline-block; margin:0px 10px 10px 10px; }
+.jcarouselWidget .btnPrev { width:25px; float:left; cursor:pointer; margin-top:30px; }
+.jcarouselWidget .btnNext { width:25px; float:right; cursor:pointer; margin-top:30px; }
+.jcarouselWidget .jcarouselList { width:510px; float:left; }
+.jcarouselWidget .jcarouselList ul { width:100%; list-style:none; }
+.jcarouselWidget .jcarouselList ul li { float:left; width:107.5px; padding:0px 10px; text-align:center; }
+.album_pic { width:107px; border:1px solid #C9C9C9; background-color:#3C3C3C; text-align:right; }
+.album_pic img { width:100px; height:100px; }
+
+/* MYPAGE PIC CSS */
+.profile_pic { float:left; width:30px; height:30px; border:1px solid #C5C5C5; }
+.profile_bg { float:left; width:30px; height:30px; border:1px solid #C5C5C5; }
